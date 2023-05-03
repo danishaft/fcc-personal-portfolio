@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    width: 100%;
+}
+
+body{
+    padding-top: 60px;
+}
+
+#navbar{
+    min-height: 8vh;
+    padding: 0 0;
+    background-color: #BE3144;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 100%; */
+    height: 60px;
+    padding-right: 20px;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+#navbar ul li:hover{
+    background-color: #45567D;
+}
+
+#navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#welcome-section{
+    min-height: 90vh;
+    background-color: #2C2D30;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 4;
+}
+
+#welcome-section h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#welcome-section i{
+    font-size: 30px;
+    color: #BE3144;
+}
+
+/* project section */
+
+#projects{
+    /* min-height: 100vh; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #45567D;
+    padding: 100px 0;
+}
+
+#projects .project-text{
+    padding-bottom: 70px;
+}
+
+#projects h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+#project-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+#project-list .project-item{
+    padding: 30px 30px;
+}
+
+#project-list .project-item a img{
+    width: 400px;
+    height: 350px;
+}
+
+#project-list .project-item span{
+    background-color: #303841;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+/* #project-list .project-item span p{
+    padding: 0 4px;
+} */
+
+#project-list .project-item span i{
+    color: #DE5B43;
+    font-size: 20px;
+    display: none;
+    
+}
+
+#project-list .project-item:hover i{
+    display: block;
+}
+
+#projects button{
+    background-color: #303841;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    transition: all 0.2s ease-in;
+}
+
+#projects button:hover{
+    background-color: #BE3144;
+}
+
+/* contact section */
+
+#contact{
+    min-height: 70vh;
+    background-color: #303841;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h2{
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+#contact #contact-text{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+#contact #contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact #contact-links a{
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+#contact #contact-links a:hover{
+    transform: translateY(8px);
+}
+
+/* footer-section */
+footer{
+    background-color: #303841;
+    color: #fff;
+}
+
+footer hr{
+    border: 2px solid #BE3144;
+}
+
+footer .footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
